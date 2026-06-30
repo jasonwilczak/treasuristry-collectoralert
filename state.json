@@ -1,6 +1,2179 @@
 {
-  "sets": {},
+  "sets": {
+    "trk": {
+      "name": "Star Trek",
+      "released_at": "2026-11-20",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "trc": {
+      "name": "Star Trek Commander",
+      "released_at": "2026-11-20",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "fra": {
+      "name": "Reality Fracture",
+      "released_at": "2026-10-02",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "hoc": {
+      "name": "The Hobbit Commander",
+      "released_at": "2026-08-14",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "hob": {
+      "name": "The Hobbit",
+      "released_at": "2026-08-14",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "msc": {
+      "name": "Marvel Super Heroes Commander",
+      "released_at": "2026-06-26",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "msh": {
+      "name": "Marvel Super Heroes",
+      "released_at": "2026-06-26",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "soa": {
+      "name": "Secrets of Strixhaven Mystical Archive",
+      "released_at": "2026-04-24",
+      "set_type": "masterpiece",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "sos": {
+      "name": "Secrets of Strixhaven",
+      "released_at": "2026-04-24",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "soc": {
+      "name": "Secrets of Strixhaven Commander",
+      "released_at": "2026-04-24",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "tmt": {
+      "name": "Teenage Mutant Ninja Turtles",
+      "released_at": "2026-03-06",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "pza": {
+      "name": "Teenage Mutant Ninja Turtles Source Material",
+      "released_at": "2026-03-06",
+      "set_type": "masterpiece",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "tmc": {
+      "name": "Teenage Mutant Ninja Turtles Eternal",
+      "released_at": "2026-03-06",
+      "set_type": "eternal",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "ecc": {
+      "name": "Lorwyn Eclipsed Commander",
+      "released_at": "2026-01-23",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "ecl": {
+      "name": "Lorwyn Eclipsed",
+      "released_at": "2026-01-23",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "tle": {
+      "name": "Avatar: The Last Airbender Eternal",
+      "released_at": "2025-11-21",
+      "set_type": "eternal",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "tla": {
+      "name": "Avatar: The Last Airbender",
+      "released_at": "2025-11-21",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "spe": {
+      "name": "Marvel's Spider-Man Eternal",
+      "released_at": "2025-09-26",
+      "set_type": "eternal",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "mar": {
+      "name": "Marvel Universe",
+      "released_at": "2025-09-26",
+      "set_type": "masterpiece",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "spm": {
+      "name": "Marvel's Spider-Man",
+      "released_at": "2025-09-26",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "ph23": {
+      "name": "2023 Heroes of the Realm",
+      "released_at": "2025-08-24",
+      "set_type": "funny",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "eoc": {
+      "name": "Edge of Eternities Commander",
+      "released_at": "2025-08-01",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "eoe": {
+      "name": "Edge of Eternities",
+      "released_at": "2025-08-01",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "eos": {
+      "name": "Edge of Eternities: Stellar Sights",
+      "released_at": "2025-08-01",
+      "set_type": "masterpiece",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "fca": {
+      "name": "Final Fantasy: Through the Ages",
+      "released_at": "2025-06-13",
+      "set_type": "masterpiece",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "fic": {
+      "name": "Final Fantasy Commander",
+      "released_at": "2025-06-13",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "fin": {
+      "name": "Final Fantasy",
+      "released_at": "2025-06-13",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "tdc": {
+      "name": "Tarkir: Dragonstorm Commander",
+      "released_at": "2025-04-11",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "tdm": {
+      "name": "Tarkir: Dragonstorm",
+      "released_at": "2025-04-11",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "drc": {
+      "name": "Aetherdrift Commander",
+      "released_at": "2025-02-14",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "dft": {
+      "name": "Aetherdrift",
+      "released_at": "2025-02-14",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "inr": {
+      "name": "Innistrad Remastered",
+      "released_at": "2025-01-24",
+      "set_type": "masters",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "j25": {
+      "name": "Foundations Jumpstart",
+      "released_at": "2024-11-15",
+      "set_type": "draft_innovation",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "fdn": {
+      "name": "Foundations",
+      "released_at": "2024-11-15",
+      "set_type": "core",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "fdc": {
+      "name": "Foundations Commander",
+      "released_at": "2024-11-15",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "dsk": {
+      "name": "Duskmourn: House of Horror",
+      "released_at": "2024-09-27",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "dsc": {
+      "name": "Duskmourn: House of Horror Commander",
+      "released_at": "2024-09-27",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "blc": {
+      "name": "Bloomburrow Commander",
+      "released_at": "2024-08-02",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "mb2": {
+      "name": "Mystery Booster 2",
+      "released_at": "2024-08-02",
+      "set_type": "masters",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "blb": {
+      "name": "Bloomburrow",
+      "released_at": "2024-08-02",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "acr": {
+      "name": "Assassin's Creed",
+      "released_at": "2024-07-05",
+      "set_type": "draft_innovation",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "mh3": {
+      "name": "Modern Horizons 3",
+      "released_at": "2024-06-14",
+      "set_type": "draft_innovation",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "m3c": {
+      "name": "Modern Horizons 3 Commander",
+      "released_at": "2024-06-14",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "h2r": {
+      "name": "Modern Horizons 2 Timeshifts",
+      "released_at": "2024-06-07",
+      "set_type": "draft_innovation",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "big": {
+      "name": "The Big Score",
+      "released_at": "2024-04-19",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "otj": {
+      "name": "Outlaws of Thunder Junction",
+      "released_at": "2024-04-19",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "otp": {
+      "name": "Breaking News",
+      "released_at": "2024-04-19",
+      "set_type": "masterpiece",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "otc": {
+      "name": "Outlaws of Thunder Junction Commander",
+      "released_at": "2024-04-19",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "pip": {
+      "name": "Fallout",
+      "released_at": "2024-03-08",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "punk": {
+      "name": "Black Lotus Unknown Planechase",
+      "released_at": "2024-02-24",
+      "set_type": "funny",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "clu": {
+      "name": "Ravnica: Clue Edition",
+      "released_at": "2024-02-23",
+      "set_type": "draft_innovation",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "mkc": {
+      "name": "Murders at Karlov Manor Commander",
+      "released_at": "2024-02-09",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "mkm": {
+      "name": "Murders at Karlov Manor",
+      "released_at": "2024-02-09",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "rvr": {
+      "name": "Ravnica Remastered",
+      "released_at": "2024-01-12",
+      "set_type": "masters",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "spg": {
+      "name": "Special Guests",
+      "released_at": "2023-11-17",
+      "set_type": "masterpiece",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "rex": {
+      "name": "Jurassic World Collection",
+      "released_at": "2023-11-17",
+      "set_type": "eternal",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "lcc": {
+      "name": "The Lost Caverns of Ixalan Commander",
+      "released_at": "2023-11-17",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "lci": {
+      "name": "The Lost Caverns of Ixalan",
+      "released_at": "2023-11-17",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "who": {
+      "name": "Doctor Who",
+      "released_at": "2023-10-13",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "wot": {
+      "name": "Wilds of Eldraine: Enchanting Tales",
+      "released_at": "2023-09-08",
+      "set_type": "masterpiece",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "woc": {
+      "name": "Wilds of Eldraine Commander",
+      "released_at": "2023-09-08",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "woe": {
+      "name": "Wilds of Eldraine",
+      "released_at": "2023-09-08",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "cmm": {
+      "name": "Commander Masters",
+      "released_at": "2023-08-04",
+      "set_type": "masters",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "ph22": {
+      "name": "2022 Heroes of the Realm",
+      "released_at": "2023-08-01",
+      "set_type": "funny",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "ltc": {
+      "name": "Tales of Middle-earth Commander",
+      "released_at": "2023-06-23",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "ltr": {
+      "name": "The Lord of the Rings: Tales of Middle-earth",
+      "released_at": "2023-06-23",
+      "set_type": "draft_innovation",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "mat": {
+      "name": "March of the Machine: The Aftermath",
+      "released_at": "2023-05-12",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "mul": {
+      "name": "Multiverse Legends",
+      "released_at": "2023-04-21",
+      "set_type": "masterpiece",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "mom": {
+      "name": "March of the Machine",
+      "released_at": "2023-04-21",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "moc": {
+      "name": "March of the Machine Commander",
+      "released_at": "2023-04-21",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "unk": {
+      "name": "Unknown Event",
+      "released_at": "2023-02-15",
+      "set_type": "funny",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "onc": {
+      "name": "Phyrexia: All Will Be One Commander",
+      "released_at": "2023-02-10",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "one": {
+      "name": "Phyrexia: All Will Be One",
+      "released_at": "2023-02-10",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "dmr": {
+      "name": "Dominaria Remastered",
+      "released_at": "2023-01-13",
+      "set_type": "masters",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "scd": {
+      "name": "Starter Commander Decks",
+      "released_at": "2022-12-02",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "j22": {
+      "name": "Jumpstart 2022",
+      "released_at": "2022-12-02",
+      "set_type": "draft_innovation",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "brc": {
+      "name": "The Brothers' War Commander",
+      "released_at": "2022-11-18",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "brr": {
+      "name": "The Brothers' War Retro Artifacts",
+      "released_at": "2022-11-18",
+      "set_type": "masterpiece",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "bot": {
+      "name": "Transformers",
+      "released_at": "2022-11-18",
+      "set_type": "eternal",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "bro": {
+      "name": "The Brothers' War",
+      "released_at": "2022-11-18",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "slc": {
+      "name": "Secret Lair Countdown",
+      "released_at": "2022-11-01",
+      "set_type": "box",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "gn3": {
+      "name": "Game Night: Free-for-All",
+      "released_at": "2022-10-14",
+      "set_type": "box",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "ulst": {
+      "name": "The List (Unfinity Foil Edition)",
+      "released_at": "2022-10-07",
+      "set_type": "funny",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "unf": {
+      "name": "Unfinity",
+      "released_at": "2022-10-07",
+      "set_type": "funny",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "sunf": {
+      "name": "Unfinity Sticker Sheets",
+      "released_at": "2022-10-07",
+      "set_type": "funny",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "40k": {
+      "name": "Warhammer 40,000 Commander",
+      "released_at": "2022-10-07",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "dmu": {
+      "name": "Dominaria United",
+      "released_at": "2022-09-09",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "dmc": {
+      "name": "Dominaria United Commander",
+      "released_at": "2022-09-09",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "ph21": {
+      "name": "2021 Heroes of the Realm",
+      "released_at": "2022-08-01",
+      "set_type": "funny",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "2x2": {
+      "name": "Double Masters 2022",
+      "released_at": "2022-07-08",
+      "set_type": "masters",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "clb": {
+      "name": "Commander Legends: Battle for Baldur's Gate",
+      "released_at": "2022-06-10",
+      "set_type": "draft_innovation",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "snc": {
+      "name": "Streets of New Capenna",
+      "released_at": "2022-04-29",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "ncc": {
+      "name": "New Capenna Commander",
+      "released_at": "2022-04-29",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "q07": {
+      "name": "Challenger Decks 2022",
+      "released_at": "2022-04-01",
+      "set_type": "box",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "slx": {
+      "name": "Universes Within",
+      "released_at": "2022-03-03",
+      "set_type": "masters",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "neo": {
+      "name": "Kamigawa: Neon Dynasty",
+      "released_at": "2022-02-18",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "nec": {
+      "name": "Neon Dynasty Commander",
+      "released_at": "2022-02-18",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "cc2": {
+      "name": "Commander Collection: Black",
+      "released_at": "2022-01-28",
+      "set_type": "arsenal",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "dbl": {
+      "name": "Innistrad: Double Feature",
+      "released_at": "2022-01-28",
+      "set_type": "draft_innovation",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "vow": {
+      "name": "Innistrad: Crimson Vow",
+      "released_at": "2021-11-19",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "voc": {
+      "name": "Crimson Vow Commander",
+      "released_at": "2021-11-19",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "q06": {
+      "name": "Pioneer Challenger Decks 2021",
+      "released_at": "2021-10-15",
+      "set_type": "box",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "mic": {
+      "name": "Midnight Hunt Commander",
+      "released_at": "2021-09-24",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "mid": {
+      "name": "Innistrad: Midnight Hunt",
+      "released_at": "2021-09-24",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "cmb2": {
+      "name": "Mystery Booster Playtest Cards 2021",
+      "released_at": "2021-08-20",
+      "set_type": "funny",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "ph20": {
+      "name": "2020 Heroes of the Realm",
+      "released_at": "2021-08-01",
+      "set_type": "funny",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "afc": {
+      "name": "Forgotten Realms Commander",
+      "released_at": "2021-07-23",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "afr": {
+      "name": "Adventures in the Forgotten Realms",
+      "released_at": "2021-07-23",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "h1r": {
+      "name": "Modern Horizons 1 Timeshifts",
+      "released_at": "2021-06-18",
+      "set_type": "draft_innovation",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "mh2": {
+      "name": "Modern Horizons 2",
+      "released_at": "2021-06-18",
+      "set_type": "draft_innovation",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "stx": {
+      "name": "Strixhaven: School of Mages",
+      "released_at": "2021-04-23",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "sta": {
+      "name": "Strixhaven Mystical Archive",
+      "released_at": "2021-04-23",
+      "set_type": "masterpiece",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "c21": {
+      "name": "Commander 2021",
+      "released_at": "2021-04-23",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "tsr": {
+      "name": "Time Spiral Remastered",
+      "released_at": "2021-03-19",
+      "set_type": "masters",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "khc": {
+      "name": "Kaldheim Commander",
+      "released_at": "2021-02-05",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "khm": {
+      "name": "Kaldheim",
+      "released_at": "2021-02-05",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "cc1": {
+      "name": "Commander Collection: Green",
+      "released_at": "2020-12-04",
+      "set_type": "arsenal",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "cmr": {
+      "name": "Commander Legends",
+      "released_at": "2020-11-20",
+      "set_type": "draft_innovation",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "plst": {
+      "name": "The List",
+      "released_at": "2020-09-26",
+      "set_type": "masters",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "znr": {
+      "name": "Zendikar Rising",
+      "released_at": "2020-09-25",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "znc": {
+      "name": "Zendikar Rising Commander",
+      "released_at": "2020-09-25",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "zne": {
+      "name": "Zendikar Rising Expeditions",
+      "released_at": "2020-09-25",
+      "set_type": "masterpiece",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "2xm": {
+      "name": "Double Masters",
+      "released_at": "2020-08-07",
+      "set_type": "masters",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "ph19": {
+      "name": "2019 Heroes of the Realm",
+      "released_at": "2020-08-01",
+      "set_type": "funny",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "jmp": {
+      "name": "Jumpstart",
+      "released_at": "2020-07-17",
+      "set_type": "draft_innovation",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "m21": {
+      "name": "Core Set 2021",
+      "released_at": "2020-07-03",
+      "set_type": "core",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "ss3": {
+      "name": "Signature Spellbook: Chandra",
+      "released_at": "2020-06-26",
+      "set_type": "spellbook",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "slu": {
+      "name": "Secret Lair: Ultimate Edition",
+      "released_at": "2020-05-29",
+      "set_type": "box",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "iko": {
+      "name": "Ikoria: Lair of Behemoths",
+      "released_at": "2020-04-24",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "c20": {
+      "name": "Commander 2020",
+      "released_at": "2020-04-17",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "und": {
+      "name": "Unsanctioned",
+      "released_at": "2020-02-29",
+      "set_type": "funny",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "thb": {
+      "name": "Theros Beyond Death",
+      "released_at": "2020-01-24",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "sld": {
+      "name": "Secret Lair Drop",
+      "released_at": "2019-12-02",
+      "set_type": "box",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "gn2": {
+      "name": "Game Night 2019",
+      "released_at": "2019-11-15",
+      "set_type": "box",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "cmb1": {
+      "name": "Mystery Booster Playtest Cards 2019",
+      "released_at": "2019-11-07",
+      "set_type": "funny",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "ptg": {
+      "name": "Ponies: The Galloping",
+      "released_at": "2019-10-22",
+      "set_type": "funny",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "eld": {
+      "name": "Throne of Eldraine",
+      "released_at": "2019-10-04",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "c19": {
+      "name": "Commander 2019",
+      "released_at": "2019-08-23",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "ph18": {
+      "name": "2018 Heroes of the Realm",
+      "released_at": "2019-08-01",
+      "set_type": "funny",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "m20": {
+      "name": "Core Set 2020",
+      "released_at": "2019-07-12",
+      "set_type": "core",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "ss2": {
+      "name": "Signature Spellbook: Gideon",
+      "released_at": "2019-06-28",
+      "set_type": "spellbook",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "mh1": {
+      "name": "Modern Horizons",
+      "released_at": "2019-06-14",
+      "set_type": "draft_innovation",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "war": {
+      "name": "War of the Spark",
+      "released_at": "2019-05-03",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "gk2": {
+      "name": "RNA Guild Kit",
+      "released_at": "2019-02-15",
+      "set_type": "box",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "rna": {
+      "name": "Ravnica Allegiance",
+      "released_at": "2019-01-25",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "puma": {
+      "name": "Ultimate Box Topper",
+      "released_at": "2018-12-07",
+      "set_type": "masterpiece",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "uma": {
+      "name": "Ultimate Masters",
+      "released_at": "2018-12-07",
+      "set_type": "masters",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "gnt": {
+      "name": "Game Night",
+      "released_at": "2018-11-16",
+      "set_type": "box",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "g18": {
+      "name": "M19 Gift Pack",
+      "released_at": "2018-11-16",
+      "set_type": "box",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "gk1": {
+      "name": "GRN Guild Kit",
+      "released_at": "2018-11-02",
+      "set_type": "box",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "grn": {
+      "name": "Guilds of Ravnica",
+      "released_at": "2018-10-05",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "med": {
+      "name": "Mythic Edition",
+      "released_at": "2018-10-05",
+      "set_type": "masterpiece",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "c18": {
+      "name": "Commander 2018",
+      "released_at": "2018-08-10",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "ph17": {
+      "name": "2017 Heroes of the Realm",
+      "released_at": "2018-08-01",
+      "set_type": "funny",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "m19": {
+      "name": "Core Set 2019",
+      "released_at": "2018-07-13",
+      "set_type": "core",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "gs1": {
+      "name": "Global Series Jiang Yanggu & Mu Yanling",
+      "released_at": "2018-06-22",
+      "set_type": "duel_deck",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "ss1": {
+      "name": "Signature Spellbook: Jace",
+      "released_at": "2018-06-15",
+      "set_type": "spellbook",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "cm2": {
+      "name": "Commander Anthology Volume II",
+      "released_at": "2018-06-08",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "bbd": {
+      "name": "Battlebond",
+      "released_at": "2018-06-08",
+      "set_type": "draft_innovation",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "dom": {
+      "name": "Dominaria",
+      "released_at": "2018-04-27",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "ddu": {
+      "name": "Duel Decks: Elves vs. Inventors",
+      "released_at": "2018-04-06",
+      "set_type": "duel_deck",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "a25": {
+      "name": "Masters 25",
+      "released_at": "2018-03-16",
+      "set_type": "masters",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "rix": {
+      "name": "Rivals of Ixalan",
+      "released_at": "2018-01-19",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "ust": {
+      "name": "Unstable",
+      "released_at": "2017-12-08",
+      "set_type": "funny",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "v17": {
+      "name": "From the Vault: Transform",
+      "released_at": "2017-11-24",
+      "set_type": "from_the_vault",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "e02": {
+      "name": "Explorers of Ixalan",
+      "released_at": "2017-11-24",
+      "set_type": "box",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "ima": {
+      "name": "Iconic Masters",
+      "released_at": "2017-11-17",
+      "set_type": "masters",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "ddt": {
+      "name": "Duel Decks: Merfolk vs. Goblins",
+      "released_at": "2017-10-24",
+      "set_type": "duel_deck",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "g17": {
+      "name": "2017 Gift Pack",
+      "released_at": "2017-10-20",
+      "set_type": "box",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "xln": {
+      "name": "Ixalan",
+      "released_at": "2017-09-29",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "h17": {
+      "name": "HasCon 2017",
+      "released_at": "2017-09-20",
+      "set_type": "funny",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "phtr": {
+      "name": "2016 Heroes of the Realm",
+      "released_at": "2017-09-20",
+      "set_type": "funny",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "c17": {
+      "name": "Commander 2017",
+      "released_at": "2017-08-25",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "hou": {
+      "name": "Hour of Devastation",
+      "released_at": "2017-07-14",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "oe01": {
+      "name": "Archenemy: Nicol Bolas Schemes",
+      "released_at": "2017-06-16",
+      "set_type": "archenemy",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "e01": {
+      "name": "Archenemy: Nicol Bolas",
+      "released_at": "2017-06-16",
+      "set_type": "archenemy",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "cma": {
+      "name": "Commander Anthology",
+      "released_at": "2017-06-09",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "mp2": {
+      "name": "Amonkhet Invocations",
+      "released_at": "2017-04-28",
+      "set_type": "masterpiece",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "akh": {
+      "name": "Amonkhet",
+      "released_at": "2017-04-28",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "w17": {
+      "name": "Welcome Deck 2017",
+      "released_at": "2017-04-15",
+      "set_type": "starter",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "dds": {
+      "name": "Duel Decks: Mind vs. Might",
+      "released_at": "2017-03-31",
+      "set_type": "duel_deck",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "mm3": {
+      "name": "Modern Masters 2017",
+      "released_at": "2017-03-17",
+      "set_type": "masters",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "aer": {
+      "name": "Aether Revolt",
+      "released_at": "2017-01-20",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "opca": {
+      "name": "Planechase Anthology Planes",
+      "released_at": "2016-11-25",
+      "set_type": "planechase",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "pca": {
+      "name": "Planechase Anthology",
+      "released_at": "2016-11-25",
+      "set_type": "planechase",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "c16": {
+      "name": "Commander 2016",
+      "released_at": "2016-11-11",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "kld": {
+      "name": "Kaladesh",
+      "released_at": "2016-09-30",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "mps": {
+      "name": "Kaladesh Inventions",
+      "released_at": "2016-09-30",
+      "set_type": "masterpiece",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "ddr": {
+      "name": "Duel Decks: Nissa vs. Ob Nixilis",
+      "released_at": "2016-09-02",
+      "set_type": "duel_deck",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "cn2": {
+      "name": "Conspiracy: Take the Crown",
+      "released_at": "2016-08-26",
+      "set_type": "draft_innovation",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "v16": {
+      "name": "From the Vault: Lore",
+      "released_at": "2016-08-19",
+      "set_type": "from_the_vault",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "emn": {
+      "name": "Eldritch Moon",
+      "released_at": "2016-07-22",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "ema": {
+      "name": "Eternal Masters",
+      "released_at": "2016-06-10",
+      "set_type": "masters",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "w16": {
+      "name": "Welcome Deck 2016",
+      "released_at": "2016-04-08",
+      "set_type": "starter",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "soi": {
+      "name": "Shadows over Innistrad",
+      "released_at": "2016-04-08",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "ddq": {
+      "name": "Duel Decks: Blessed vs. Cursed",
+      "released_at": "2016-02-26",
+      "set_type": "duel_deck",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "ogw": {
+      "name": "Oath of the Gatewatch",
+      "released_at": "2016-01-22",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "c15": {
+      "name": "Commander 2015",
+      "released_at": "2015-11-13",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "bfz": {
+      "name": "Battle for Zendikar",
+      "released_at": "2015-10-02",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "exp": {
+      "name": "Zendikar Expeditions",
+      "released_at": "2015-10-02",
+      "set_type": "masterpiece",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "ddp": {
+      "name": "Duel Decks: Zendikar vs. Eldrazi",
+      "released_at": "2015-08-28",
+      "set_type": "duel_deck",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "v15": {
+      "name": "From the Vault: Angels",
+      "released_at": "2015-08-21",
+      "set_type": "from_the_vault",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "cp3": {
+      "name": "Magic Origins Clash Pack",
+      "released_at": "2015-07-17",
+      "set_type": "starter",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "ori": {
+      "name": "Magic Origins",
+      "released_at": "2015-07-17",
+      "set_type": "core",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "mm2": {
+      "name": "Modern Masters 2015",
+      "released_at": "2015-05-22",
+      "set_type": "masters",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "dtk": {
+      "name": "Dragons of Tarkir",
+      "released_at": "2015-03-27",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "ddo": {
+      "name": "Duel Decks: Elspeth vs. Kiora",
+      "released_at": "2015-02-27",
+      "set_type": "duel_deck",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "cp2": {
+      "name": "Fate Reforged Clash Pack",
+      "released_at": "2015-01-23",
+      "set_type": "starter",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "frf": {
+      "name": "Fate Reforged",
+      "released_at": "2015-01-23",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "jvc": {
+      "name": "Duel Decks Anthology: Jace vs. Chandra",
+      "released_at": "2014-12-05",
+      "set_type": "duel_deck",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "gvl": {
+      "name": "Duel Decks Anthology: Garruk vs. Liliana",
+      "released_at": "2014-12-05",
+      "set_type": "duel_deck",
+      "seenAt": "2026-06-30T18:26:11.063Z"
+    },
+    "evg": {
+      "name": "Duel Decks Anthology: Elves vs. Goblins",
+      "released_at": "2014-12-05",
+      "set_type": "duel_deck",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "dvd": {
+      "name": "Duel Decks Anthology: Divine vs. Demonic",
+      "released_at": "2014-12-05",
+      "set_type": "duel_deck",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "c14": {
+      "name": "Commander 2014",
+      "released_at": "2014-11-07",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "ktk": {
+      "name": "Khans of Tarkir",
+      "released_at": "2014-09-26",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "ddn": {
+      "name": "Duel Decks: Speed vs. Cunning",
+      "released_at": "2014-09-05",
+      "set_type": "duel_deck",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "v14": {
+      "name": "From the Vault: Annihilation",
+      "released_at": "2014-08-22",
+      "set_type": "from_the_vault",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "cp1": {
+      "name": "Magic 2015 Clash Pack",
+      "released_at": "2014-07-18",
+      "set_type": "starter",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "m15": {
+      "name": "Magic 2015",
+      "released_at": "2014-07-18",
+      "set_type": "core",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "cns": {
+      "name": "Conspiracy",
+      "released_at": "2014-06-06",
+      "set_type": "draft_innovation",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "md1": {
+      "name": "Modern Event Deck 2014",
+      "released_at": "2014-05-30",
+      "set_type": "box",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "jou": {
+      "name": "Journey into Nyx",
+      "released_at": "2014-05-02",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "ddm": {
+      "name": "Duel Decks: Jace vs. Vraska",
+      "released_at": "2014-03-14",
+      "set_type": "duel_deck",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "bng": {
+      "name": "Born of the Gods",
+      "released_at": "2014-02-07",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "c13": {
+      "name": "Commander 2013",
+      "released_at": "2013-11-01",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "ths": {
+      "name": "Theros",
+      "released_at": "2013-09-27",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "ddl": {
+      "name": "Duel Decks: Heroes vs. Monsters",
+      "released_at": "2013-09-06",
+      "set_type": "duel_deck",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "v13": {
+      "name": "From the Vault: Twenty",
+      "released_at": "2013-08-23",
+      "set_type": "from_the_vault",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "m14": {
+      "name": "Magic 2014",
+      "released_at": "2013-07-19",
+      "set_type": "core",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "mma": {
+      "name": "Modern Masters",
+      "released_at": "2013-06-07",
+      "set_type": "masters",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "dgm": {
+      "name": "Dragon's Maze",
+      "released_at": "2013-05-03",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "ddk": {
+      "name": "Duel Decks: Sorin vs. Tibalt",
+      "released_at": "2013-03-15",
+      "set_type": "duel_deck",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "gtc": {
+      "name": "Gatecrash",
+      "released_at": "2013-02-01",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "cm1": {
+      "name": "Commander's Arsenal",
+      "released_at": "2012-11-02",
+      "set_type": "arsenal",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "rtr": {
+      "name": "Return to Ravnica",
+      "released_at": "2012-10-05",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "ddj": {
+      "name": "Duel Decks: Izzet vs. Golgari",
+      "released_at": "2012-09-07",
+      "set_type": "duel_deck",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "v12": {
+      "name": "From the Vault: Realms",
+      "released_at": "2012-08-31",
+      "set_type": "from_the_vault",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "m13": {
+      "name": "Magic 2013",
+      "released_at": "2012-07-13",
+      "set_type": "core",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "opc2": {
+      "name": "Planechase 2012 Planes",
+      "released_at": "2012-06-01",
+      "set_type": "planechase",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "pc2": {
+      "name": "Planechase 2012",
+      "released_at": "2012-06-01",
+      "set_type": "planechase",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "avr": {
+      "name": "Avacyn Restored",
+      "released_at": "2012-05-04",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "ddi": {
+      "name": "Duel Decks: Venser vs. Koth",
+      "released_at": "2012-03-30",
+      "set_type": "duel_deck",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "dka": {
+      "name": "Dark Ascension",
+      "released_at": "2012-02-03",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "pd3": {
+      "name": "Premium Deck Series: Graveborn",
+      "released_at": "2011-11-18",
+      "set_type": "premium_deck",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "isd": {
+      "name": "Innistrad",
+      "released_at": "2011-09-30",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "ddh": {
+      "name": "Duel Decks: Ajani vs. Nicol Bolas",
+      "released_at": "2011-09-02",
+      "set_type": "duel_deck",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "v11": {
+      "name": "From the Vault: Legends",
+      "released_at": "2011-08-26",
+      "set_type": "from_the_vault",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "m12": {
+      "name": "Magic 2012",
+      "released_at": "2011-07-15",
+      "set_type": "core",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "cmd": {
+      "name": "Commander 2011",
+      "released_at": "2011-06-17",
+      "set_type": "commander",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "nph": {
+      "name": "New Phyrexia",
+      "released_at": "2011-05-13",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "ddg": {
+      "name": "Duel Decks: Knights vs. Dragons",
+      "released_at": "2011-04-01",
+      "set_type": "duel_deck",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "mbs": {
+      "name": "Mirrodin Besieged",
+      "released_at": "2011-02-04",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "ps11": {
+      "name": "Salvat 2011",
+      "released_at": "2011-01-01",
+      "set_type": "box",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "pd2": {
+      "name": "Premium Deck Series: Fire and Lightning",
+      "released_at": "2010-11-19",
+      "set_type": "premium_deck",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "som": {
+      "name": "Scars of Mirrodin",
+      "released_at": "2010-10-01",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "ddf": {
+      "name": "Duel Decks: Elspeth vs. Tezzeret",
+      "released_at": "2010-09-03",
+      "set_type": "duel_deck",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "v10": {
+      "name": "From the Vault: Relics",
+      "released_at": "2010-08-27",
+      "set_type": "from_the_vault",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "m11": {
+      "name": "Magic 2011",
+      "released_at": "2010-07-16",
+      "set_type": "core",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "oarc": {
+      "name": "Archenemy Schemes",
+      "released_at": "2010-06-18",
+      "set_type": "archenemy",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "arc": {
+      "name": "Archenemy",
+      "released_at": "2010-06-18",
+      "set_type": "archenemy",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "dpa": {
+      "name": "Duels of the Planeswalkers",
+      "released_at": "2010-06-04",
+      "set_type": "box",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "roe": {
+      "name": "Rise of the Eldrazi",
+      "released_at": "2010-04-23",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "dde": {
+      "name": "Duel Decks: Phyrexia vs. the Coalition",
+      "released_at": "2010-03-19",
+      "set_type": "duel_deck",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "wwk": {
+      "name": "Worldwake",
+      "released_at": "2010-02-05",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "h09": {
+      "name": "Premium Deck Series: Slivers",
+      "released_at": "2009-11-20",
+      "set_type": "premium_deck",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "ddd": {
+      "name": "Duel Decks: Garruk vs. Liliana",
+      "released_at": "2009-10-30",
+      "set_type": "duel_deck",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "zen": {
+      "name": "Zendikar",
+      "released_at": "2009-10-02",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "ohop": {
+      "name": "Planechase Planes",
+      "released_at": "2009-09-04",
+      "set_type": "planechase",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "hop": {
+      "name": "Planechase",
+      "released_at": "2009-09-04",
+      "set_type": "planechase",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "v09": {
+      "name": "From the Vault: Exiled",
+      "released_at": "2009-08-28",
+      "set_type": "from_the_vault",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "m10": {
+      "name": "Magic 2010",
+      "released_at": "2009-07-17",
+      "set_type": "core",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "arb": {
+      "name": "Alara Reborn",
+      "released_at": "2009-04-30",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "ddc": {
+      "name": "Duel Decks: Divine vs. Demonic",
+      "released_at": "2009-04-10",
+      "set_type": "duel_deck",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "con": {
+      "name": "Conflux",
+      "released_at": "2009-02-06",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "dd2": {
+      "name": "Duel Decks: Jace vs. Chandra",
+      "released_at": "2008-11-07",
+      "set_type": "duel_deck",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "ala": {
+      "name": "Shards of Alara",
+      "released_at": "2008-10-03",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "drb": {
+      "name": "From the Vault: Dragons",
+      "released_at": "2008-08-29",
+      "set_type": "from_the_vault",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "eve": {
+      "name": "Eventide",
+      "released_at": "2008-07-25",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "shm": {
+      "name": "Shadowmoor",
+      "released_at": "2008-05-02",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "mor": {
+      "name": "Morningtide",
+      "released_at": "2008-02-01",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "dd1": {
+      "name": "Duel Decks: Elves vs. Goblins",
+      "released_at": "2007-11-16",
+      "set_type": "duel_deck",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "lrw": {
+      "name": "Lorwyn",
+      "released_at": "2007-10-12",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "10e": {
+      "name": "Tenth Edition",
+      "released_at": "2007-07-13",
+      "set_type": "core",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "fut": {
+      "name": "Future Sight",
+      "released_at": "2007-05-04",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "plc": {
+      "name": "Planar Chaos",
+      "released_at": "2007-02-02",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "hho": {
+      "name": "Happy Holidays",
+      "released_at": "2006-12-31",
+      "set_type": "funny",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "tsb": {
+      "name": "Time Spiral Timeshifted",
+      "released_at": "2006-10-06",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "tsp": {
+      "name": "Time Spiral",
+      "released_at": "2006-10-06",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "csp": {
+      "name": "Coldsnap",
+      "released_at": "2006-07-21",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "cst": {
+      "name": "Coldsnap Theme Decks",
+      "released_at": "2006-07-21",
+      "set_type": "box",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "dis": {
+      "name": "Dissension",
+      "released_at": "2006-05-05",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "gpt": {
+      "name": "Guildpact",
+      "released_at": "2006-02-03",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "phuk": {
+      "name": "Hachette UK",
+      "released_at": "2006-01-01",
+      "set_type": "box",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "rav": {
+      "name": "Ravnica: City of Guilds",
+      "released_at": "2005-10-07",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "psal": {
+      "name": "Salvat 2005",
+      "released_at": "2005-08-22",
+      "set_type": "box",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "9ed": {
+      "name": "Ninth Edition",
+      "released_at": "2005-07-29",
+      "set_type": "core",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "sok": {
+      "name": "Saviors of Kamigawa",
+      "released_at": "2005-06-03",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "bok": {
+      "name": "Betrayers of Kamigawa",
+      "released_at": "2005-02-04",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "unh": {
+      "name": "Unhinged",
+      "released_at": "2004-11-19",
+      "set_type": "funny",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "chk": {
+      "name": "Champions of Kamigawa",
+      "released_at": "2004-10-01",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "5dn": {
+      "name": "Fifth Dawn",
+      "released_at": "2004-06-04",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "dst": {
+      "name": "Darksteel",
+      "released_at": "2004-02-06",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "mrd": {
+      "name": "Mirrodin",
+      "released_at": "2003-10-02",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "8ed": {
+      "name": "Eighth Edition",
+      "released_at": "2003-07-28",
+      "set_type": "core",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "scg": {
+      "name": "Scourge",
+      "released_at": "2003-05-26",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "lgn": {
+      "name": "Legions",
+      "released_at": "2003-02-03",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "ons": {
+      "name": "Onslaught",
+      "released_at": "2002-10-07",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "jud": {
+      "name": "Judgment",
+      "released_at": "2002-05-27",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "tor": {
+      "name": "Torment",
+      "released_at": "2002-02-04",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "dkm": {
+      "name": "Deckmasters",
+      "released_at": "2001-12-01",
+      "set_type": "box",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "ody": {
+      "name": "Odyssey",
+      "released_at": "2001-10-01",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "apc": {
+      "name": "Apocalypse",
+      "released_at": "2001-06-04",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "7ed": {
+      "name": "Seventh Edition",
+      "released_at": "2001-04-11",
+      "set_type": "core",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "pls": {
+      "name": "Planeshift",
+      "released_at": "2001-02-05",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "inv": {
+      "name": "Invasion",
+      "released_at": "2000-10-02",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "btd": {
+      "name": "Beatdown Box Set",
+      "released_at": "2000-10-01",
+      "set_type": "box",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "pcy": {
+      "name": "Prophecy",
+      "released_at": "2000-06-05",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "s00": {
+      "name": "Starter 2000",
+      "released_at": "2000-04-01",
+      "set_type": "starter",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "nem": {
+      "name": "Nemesis",
+      "released_at": "2000-02-14",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "brb": {
+      "name": "Battle Royale Box Set",
+      "released_at": "1999-11-12",
+      "set_type": "box",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "mmq": {
+      "name": "Mercadian Masques",
+      "released_at": "1999-10-04",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "s99": {
+      "name": "Starter 1999",
+      "released_at": "1999-07-01",
+      "set_type": "starter",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "uds": {
+      "name": "Urza's Destiny",
+      "released_at": "1999-06-07",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "ptk": {
+      "name": "Portal Three Kingdoms",
+      "released_at": "1999-05-01",
+      "set_type": "starter",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "6ed": {
+      "name": "Classic Sixth Edition",
+      "released_at": "1999-04-21",
+      "set_type": "core",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "ulg": {
+      "name": "Urza's Legacy",
+      "released_at": "1999-02-15",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "ath": {
+      "name": "Anthologies",
+      "released_at": "1998-11-01",
+      "set_type": "box",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "usg": {
+      "name": "Urza's Saga",
+      "released_at": "1998-10-12",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "ugl": {
+      "name": "Unglued",
+      "released_at": "1998-08-11",
+      "set_type": "funny",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "p02": {
+      "name": "Portal Second Age",
+      "released_at": "1998-06-24",
+      "set_type": "starter",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "exo": {
+      "name": "Exodus",
+      "released_at": "1998-06-15",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "sth": {
+      "name": "Stronghold",
+      "released_at": "1998-03-02",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "tmp": {
+      "name": "Tempest",
+      "released_at": "1997-10-14",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "wth": {
+      "name": "Weatherlight",
+      "released_at": "1997-06-09",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "pvan": {
+      "name": "Vanguard Series",
+      "released_at": "1997-05-01",
+      "set_type": "vanguard",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "por": {
+      "name": "Portal",
+      "released_at": "1997-05-01",
+      "set_type": "starter",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "5ed": {
+      "name": "Fifth Edition",
+      "released_at": "1997-03-24",
+      "set_type": "core",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "vis": {
+      "name": "Visions",
+      "released_at": "1997-02-03",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "itp": {
+      "name": "Introductory Two-Player Set",
+      "released_at": "1996-12-31",
+      "set_type": "starter",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "mgb": {
+      "name": "Multiverse Gift Box",
+      "released_at": "1996-11-01",
+      "set_type": "box",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "mir": {
+      "name": "Mirage",
+      "released_at": "1996-10-08",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "rqs": {
+      "name": "Rivals Quick Start Set",
+      "released_at": "1996-07-01",
+      "set_type": "box",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "all": {
+      "name": "Alliances",
+      "released_at": "1996-06-10",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "hml": {
+      "name": "Homelands",
+      "released_at": "1995-10-01",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "rin": {
+      "name": "Rinascimento",
+      "released_at": "1995-08-01",
+      "set_type": "masters",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "ren": {
+      "name": "Renaissance",
+      "released_at": "1995-08-01",
+      "set_type": "masters",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "bchr": {
+      "name": "Chronicles Foreign Black Border",
+      "released_at": "1995-07-01",
+      "set_type": "masters",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "chr": {
+      "name": "Chronicles",
+      "released_at": "1995-07-01",
+      "set_type": "masters",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "ice": {
+      "name": "Ice Age",
+      "released_at": "1995-06-03",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "4bb": {
+      "name": "Fourth Edition Foreign Black Border",
+      "released_at": "1995-04-01",
+      "set_type": "core",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "4ed": {
+      "name": "Fourth Edition",
+      "released_at": "1995-04-01",
+      "set_type": "core",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "fem": {
+      "name": "Fallen Empires",
+      "released_at": "1994-11-01",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "drk": {
+      "name": "The Dark",
+      "released_at": "1994-08-01",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "sum": {
+      "name": "Summer Magic / Edgar",
+      "released_at": "1994-06-21",
+      "set_type": "core",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "leg": {
+      "name": "Legends",
+      "released_at": "1994-06-01",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "fbb": {
+      "name": "Foreign Black Border",
+      "released_at": "1994-04-11",
+      "set_type": "core",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "3ed": {
+      "name": "Revised Edition",
+      "released_at": "1994-04-11",
+      "set_type": "core",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "atq": {
+      "name": "Antiquities",
+      "released_at": "1994-03-04",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "arn": {
+      "name": "Arabian Nights",
+      "released_at": "1993-12-17",
+      "set_type": "expansion",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "2ed": {
+      "name": "Unlimited Edition",
+      "released_at": "1993-12-01",
+      "set_type": "core",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "leb": {
+      "name": "Limited Edition Beta",
+      "released_at": "1993-10-04",
+      "set_type": "core",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    },
+    "lea": {
+      "name": "Limited Edition Alpha",
+      "released_at": "1993-08-05",
+      "set_type": "core",
+      "seenAt": "2026-06-30T18:26:11.064Z"
+    }
+  },
   "meta": {
-    "lastRun": null
+    "lastRun": "2026-06-30T18:26:11.064Z"
   }
 }
