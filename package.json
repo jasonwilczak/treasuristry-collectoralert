@@ -1,0 +1,16 @@
+{
+  "name": "mtg-release-watcher",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Polls Scryfall for new MTG paper set releases and writes them to Google Calendar",
+  "scripts": {
+    "start": "node src/index.js",
+    "get-token": "node scripts/get-refresh-token.js"
+  },
+  "dependencies": {
+    "googleapis": "^173.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
