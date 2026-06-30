@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MTG Release Watcher</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:        #0f0f13;
+      --surface:   #1a1a24;
+      --border:    #2e2e42;
+      --gold:      #c9a84c;
+      --gold-dim:  #7a6230;
+      --text:      #e2ddd5;
+      --muted:     #7a7590;
+      --upcoming:  #4a9eff;
+      --released:  #3dba6f;
+      --soon:      #f5a623;
+      --radius:    10px;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      min-height: 100vh;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1a1228 0%, #0f0f13 60%);
+      border-bottom: 1px solid var(--border);
+      padding: 28px 24px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: var(--gold);
+      letter-spacing: 0.04em;
+    }
+
+    header h1 span { opacity: 0.6; font-size: 1.4rem; }
+
+    #meta {
+      font-size: 0.78rem;
+      color: var(--muted);
+    }
+
+    .tabs {
+      display: flex;
+      gap: 8px;
+      padding: 20px 24px 0;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .tab {
+      background: none;
+      border: 1px solid var(--border);
+      color: var(--muted);
+      border-radius: 20px;
+      padding: 6px 18px;
+      font-size: 0.85rem;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+
+    .tab:hover { border-color: var(--gold-dim); color: var(--text); }
+    .tab.active { background: var(--gold); border-color: var(--gold); color: #1a1228; font-weight: 600; }
+
+    #search-wrap {
+      padding: 12px 24px 0;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    #search {
+      width: 100%;
+      max-width: 340px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      color: var(--text);
+      padding: 8px 14px;
+      font-size: 0.9rem;
+      outline: none;
+    }
+
+    #search:focus { border-color: var(--gold-dim); }
+    #search::placeholder { color: var(--muted); }
+
+    #stats {
+      padding: 12px 24px 0;
+      max-width: 1100px;
+      margin: 0 auto;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+
+    #grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 16px;
+      padding: 16px 24px 40px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 18px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      transition: border-color 0.15s, transform 0.15s;
+    }
+
+    .card:hover { border-color: var(--gold-dim); transform: translateY(-2px); }
+
+    .card.upcoming { border-left: 3px solid var(--upcoming); }
+    .card.soon     { border-left: 3px solid var(--soon); }
+    .card.released { border-left: 3px solid var(--border); opacity: 0.75; }
+
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 8px;
+    }
+
+    .set-name {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--text);
+      line-height: 1.3;
+    }
+
+    .badges {
+      display: flex;
+      gap: 5px;
+      flex-shrink: 0;
+    }
+
+    .badge {
+      font-size: 0.68rem;
+      font-weight: 600;
+      padding: 2px 7px;
+      border-radius: 4px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .badge-code   { background: #2a2040; color: #a090d0; border: 1px solid #3a3060; }
+    .badge-type   { background: #1e2a1e; color: #5c9c5c; border: 1px solid #2e4a2e; }
+
+    .release-date {
+      font-size: 0.82rem;
+      color: var(--muted);
+    }
+
+    .countdown {
+      font-size: 0.82rem;
+      font-weight: 600;
+    }
+
+    .upcoming .countdown { color: var(--upcoming); }
+    .soon     .countdown { color: var(--soon); }
+    .released .countdown { color: var(--muted); }
+
+    .scryfall-link {
+      font-size: 0.75rem;
+      color: var(--gold-dim);
+      text-decoration: none;
+      align-self: flex-start;
+    }
+    .scryfall-link:hover { color: var(--gold); }
+
+    #empty {
+      grid-column: 1/-1;
+      text-align: center;
+      color: var(--muted);
+      padding: 60px 0;
+      font-size: 0.95rem;
+    }
+
+    #error {
+      max-width: 500px;
+      margin: 60px auto;
+      text-align: center;
+      color: #e05555;
+      padding: 0 24px;
+    }
+
+    .spinner {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 200px;
+      color: var(--muted);
+      font-size: 0.9rem;
+      gap: 10px;
+    }
+
+    .dot {
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      background: var(--gold-dim);
+      animation: pulse 1.2s ease-in-out infinite;
+    }
+    .dot:nth-child(2) { animation-delay: 0.2s; }
+    .dot:nth-child(3) { animation-delay: 0.4s; }
+    @keyframes pulse { 0%,80%,100% { opacity: 0.2; } 40% { opacity: 1; } }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🎴 MTG Release Watcher</h1>
+  <div id="meta">Loading…</div>
+</header>
+
+<div class="tabs" id="tabs">
+  <button class="tab active" data-filter="upcoming">Upcoming</button>
+  <button class="tab" data-filter="all">All</button>
+  <button class="tab" data-filter="released">Released</button>
+</div>
+
+<div id="search-wrap">
+  <input id="search" type="search" placeholder="Search sets…" />
+</div>
+
+<div id="stats"></div>
+<div id="grid"><div class="spinner"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div>
+
+<script>
+  const SET_TYPE_LABELS = {
+    core: 'Core', expansion: 'Expansion', masters: 'Masters',
+    draft_innovation: 'Draft', commander: 'Commander', duel_deck: 'Duel Deck',
+    from_the_vault: 'From the Vault', spellbook: 'Spellbook', premium_deck: 'Premium',
+    box: 'Box', starter: 'Starter', funny: 'Un-set', planechase: 'Planechase',
+    archenemy: 'Archenemy', conspiracy: 'Conspiracy', treasure_chest: 'Treasure Chest',
+  };
+
+  let allSets = [];
+  let activeFilter = 'upcoming';
+
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+
+  function daysDiff(dateStr) {
+    const d = new Date(dateStr + 'T00:00:00');
+    return Math.round((d - today) / 86400000);
+  }
+
+  function countdownLabel(days) {
+    if (days === 0) return 'Today!';
+    if (days === 1) return 'Tomorrow';
+    if (days > 0)  return `In ${days} day${days === 1 ? '' : 's'}`;
+    if (days === -1) return '1 day ago';
+    return `${Math.abs(days)} days ago`;
+  }
+
+  function cardClass(days) {
+    if (days < 0)  return 'released';
+    if (days <= 14) return 'soon';
+    return 'upcoming';
+  }
+
+  function renderCard(set) {
+    const days = daysDiff(set.released_at);
+    const cls  = cardClass(days);
+    const typeLabel = SET_TYPE_LABELS[set.set_type] ?? set.set_type;
+    const date = new Date(set.released_at + 'T00:00:00')
+      .toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+
+    const card = document.createElement('div');
+    card.className = `card ${cls}`;
+    card.innerHTML = `
+      <div class="card-top">
+        <div class="set-name">${esc(set.name)}</div>
+        <div class="badges">
+          <span class="badge badge-code">${esc(set.code.toUpperCase())}</span>
+          <span class="badge badge-type">${esc(typeLabel)}</span>
+        </div>
+      </div>
+      <div class="release-date">${date}</div>
+      <div class="countdown">${countdownLabel(days)}</div>
+      <a class="scryfall-link" href="https://scryfall.com/sets/${encodeURIComponent(set.code)}" target="_blank" rel="noopener">View on Scryfall ↗</a>
+    `;
+    return card;
+  }
+
+  function esc(str) {
+    return String(str)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
+  function applyFilter(sets, filter) {
+    switch (filter) {
+      case 'upcoming': return sets.filter(s => daysDiff(s.released_at) >= 0);
+      case 'released': return sets.filter(s => daysDiff(s.released_at) < 0);
+      default:         return sets;
+    }
+  }
+
+  function render() {
+    const query  = document.getElementById('search').value.trim().toLowerCase();
+    const grid   = document.getElementById('grid');
+    const stats  = document.getElementById('stats');
+
+    let sets = applyFilter(allSets, activeFilter);
+
+    if (query) {
+      sets = sets.filter(s =>
+        s.name.toLowerCase().includes(query) ||
+        s.code.toLowerCase().includes(query) ||
+        (s.set_type ?? '').toLowerCase().includes(query)
+      );
+    }
+
+    // Upcoming: soonest first; released: most recent first
+    sets.sort((a, b) => {
+      const diff = new Date(a.released_at) - new Date(b.released_at);
+      return activeFilter === 'released' ? -diff : diff;
+    });
+
+    grid.innerHTML = '';
+    if (sets.length === 0) {
+      grid.innerHTML = '<div id="empty">No sets match.</div>';
+    } else {
+      sets.forEach(s => grid.appendChild(renderCard(s)));
+    }
+
+    const upcomingCount = allSets.filter(s => daysDiff(s.released_at) >= 0).length;
+    stats.textContent = `${sets.length} set${sets.length !== 1 ? 's' : ''} shown · ${upcomingCount} upcoming of ${allSets.length} total`;
+  }
+
+  document.getElementById('tabs').addEventListener('click', e => {
+    const btn = e.target.closest('.tab');
+    if (!btn) return;
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    btn.classList.add('active');
+    activeFilter = btn.dataset.filter;
+    render();
+  });
+
+  document.getElementById('search').addEventListener('input', render);
+
+  async function load() {
+    try {
+      const res = await fetch('./state.json?_=' + Date.now());
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+
+      allSets = Object.entries(data.sets ?? {}).map(([code, v]) => ({ code, ...v }));
+
+      const meta = document.getElementById('meta');
+      if (data.meta?.lastRun) {
+        const d = new Date(data.meta.lastRun);
+        meta.textContent = `Last updated ${d.toLocaleDateString('en-US', { year:'numeric', month:'short', day:'numeric' })} at ${d.toLocaleTimeString('en-US', { hour:'2-digit', minute:'2-digit' })} UTC`;
+      } else {
+        meta.textContent = 'No runs yet';
+      }
+
+      render();
+    } catch (err) {
+      document.getElementById('grid').innerHTML =
+        `<div id="error">Could not load state.json<br><small>${esc(err.message)}</small></div>`;
+      document.getElementById('meta').textContent = 'Error loading data';
+    }
+  }
+
+  load();
+</script>
+</body>
+</html>
