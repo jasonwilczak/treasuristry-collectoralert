@@ -19,15 +19,21 @@ async function saveState(state) {
   await writeFile(STATE_PATH, JSON.stringify(state, null, 2) + '\n', 'utf8');
 }
 
-async function main() {
-  if (!config.calendarId) {
-    throw new Error('GOOGLE_CALENDAR_ID environment variable is required');
-  }
+const calendarEnabled =
+  process.env.GOOGLE_CLIENT_ID &&
+  process.env.GOOGLE_CLIENT_SECRET &&
+  process.env.GOOGLE_REFRESH_TOKEN &&
+  process.env.GOOGLE_CALENDAR_ID;
 
+async function main() {
   const state = await loadState();
   const sets = await fetchWatchedSets();
-  const cal = getCalendarClient();
+  const cal = calendarEnabled ? getCalendarClient() : null;
   const today = new Date().toISOString().slice(0, 10);
+
+  if (!calendarEnabled) {
+    console.log('Calendar credentials not set — skipping calendar updates.');
+  }
 
   for (const set of sets) {
     state.sets[set.code] = {
@@ -37,9 +43,12 @@ async function main() {
       seenAt: new Date().toISOString(),
     };
 
-    // Only create/update calendar events for future-dated sets
-    if (set.released_at >= today) {
-      await upsertReleaseEvents(cal, set);
+    if (cal && set.released_at >= today) {
+      try {
+        await upsertReleaseEvents(cal, set);
+      } catch (err) {
+        console.warn(`Calendar upsert failed for ${set.code}: ${err.message}`);
+      }
     }
   }
 
